@@ -1,0 +1,22 @@
+{
+  "name": "ww-spinner",
+  "version": "1.0.0",
+  "description": "A spinner HTML Web component",
+  "main": "ww-spinner.html",
+  "dependencies": {
+    "ww-core": "git+https://github.com/webwidgets/ww-core.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webwidgets/ww-spinner.git"
+  },
+  "author": "Donato Pirozzi",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/webwidgets/ww-spinner/issues"
+  },
+  "homepage": "https://github.com/webwidgets/ww-spinner#readme"
+}
