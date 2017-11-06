@@ -105,14 +105,6 @@
 
             static get is() { return 'ww-spinner'; }
 
-            static get observedAttributes() { return ['hidden']; }
-
-            attributeChangedCallback(attr, oldValue, newValue) {
-                if (attr == 'hidden') {
-                    this.$.spiDiv.dis
-                }
-            }//EndFunction.*/
-
             show() {
                 this.setAttribute("hidden", '');
             }//EndFunction.
