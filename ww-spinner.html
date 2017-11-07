@@ -106,11 +106,11 @@
             static get is() { return 'ww-spinner'; }
 
             show() {
-                this.setAttribute("hidden", '');
+                this.removeAttribute("hidden");
             }//EndFunction.
 
             hide() {
-                this.removeAttribute("hidden");
+                this.setAttribute("hidden", '');
             }//EndFunction.
 
         }//EndClass.
